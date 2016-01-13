@@ -1,0 +1,33 @@
+# == Schema Information
+#
+# Table name: people
+#
+#  id         :integer          not null, primary key
+#  town       :string(255)
+#  region     :string(255)
+#  country    :string(255)
+#  lat        :decimal(64, 12)
+#  lon        :decimal(64, 12)
+#  name       :string(255)
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#  scene_id   :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  town: MyString
+  region: MyString
+  country: MyString
+  lat: 9.99
+  lon: 9.99
+  name: MyString
+
+two:
+  town: MyString
+  region: MyString
+  country: MyString
+  lat: 9.99
+  lon: 9.99
+  name: MyString
